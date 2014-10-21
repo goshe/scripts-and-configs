@@ -14,7 +14,7 @@ alias l='ls -CF'
 alias kill9='kill -9 '
 alias psg='ps aux | grep '
 alias ll='ls -la'
-alias svn_add='svn status | grep '?' | sed 's/^.* /svn add /' | bash'
+alias svn_add="svn status | grep '?' | sed 's/^.* /svn add /' | bash"
 
 # find with md5sum
 findm(){
